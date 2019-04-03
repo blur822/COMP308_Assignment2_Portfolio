@@ -13,7 +13,7 @@ export class ContactListService {
   private authToken: any = null;
 
   private endpoint =
-    'https://mean-portfolio-a2.herokuapp.com/home/api/contact-list/';
+    'https://mean-portfolio-a2.herokuapp.com/api/contact-list/';
 
   // private endpoint = 'http://localhost:3000/api/contact-list/';
 
