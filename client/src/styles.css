@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("./assets/images/galaxy-bg.jpg");
+}
+
+h1 {
+  color: rgb(48, 7, 71);
+  text-transform: capitalize;
+}
