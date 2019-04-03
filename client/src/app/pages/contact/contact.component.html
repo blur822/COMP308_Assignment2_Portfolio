@@ -1,1 +1,49 @@
 <app-base-page></app-base-page>
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Contact ME</h1>
+    <div class="panel panel-primary" style="border: 2px solid blue">
+      <div class="panel-body">
+        Atul Sharma <br />
+        <br />
+
+        4379893500
+      </div>
+    </div>
+    <div class="container">
+      <form action="action_page.php">
+        <label for="name">Name</label> <br />
+        <input
+          type="text"
+          id="name"
+          name="fname"
+          placeholder="Enter your name.."
+        /><br />
+
+        <label for="email">Email ID</label><br />
+        <input
+          type="text"
+          id="email"
+          name="emailid"
+          placeholder="Enter your email ID.."
+        /><br />
+        <label for="phone">Contact No.</label><br />
+        <input
+          type="number"
+          id="phone"
+          name="phoneno"
+          placeholder="Enter your Contact no.."
+        /><br />
+
+        <label for="message">Message</label><br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write something.."
+          style="height:200px"
+        ></textarea>
+        <a class="btn btn-primary btn-lg" href="/" role="button">Submit</a>
+      </form>
+    </div>
+  </div>
+</div>
