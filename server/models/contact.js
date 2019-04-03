@@ -1,3 +1,10 @@
+/*
+Project Name:COMP308_Assignment2_Portfolio
+File Name:contact.js
+Student Name:Atul Sharma
+Student ID:300969400
+Date: April 3, 2019
+*/
 let mongoose = require('mongoose');
 
 // create a model class

@@ -1,3 +1,10 @@
+/*
+Project Name:COMP308_Assignment2_Portfolio
+File Name:user.js
+Student Name:Atul Sharma
+Student ID:300969400
+Date: April 3, 2019
+*/
 // require modules for our User Model
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");
